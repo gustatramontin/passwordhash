@@ -1,36 +1,13 @@
 {
-  "manifest_version": 2,
   "name": "Password Hash",
-  "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Strong password generator",
   "icons": {
-    "16": "icons/icon_16.png",
-    "32": "icons/icon_32.png",
-    "48": "icons/icon_48.png",
-    "128": "icons/icon_128.png"
-  },
-  "background": {
-    "scripts": [
-      "background.js"
-    ],
-    "persistent": false
+      "64": "icon64.png"
   },
   "browser_action": {
-    "default_title": "Password Hash",
-    "default_popup": "popup.html"
-  },
-  "permissions": [
-    "storage"
-  ],
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "run_at": "document_idle",
-      "js": [
-        "contentScript.js"
-      ]
-    }
-  ]
+      "default_icon": "icon64.png",
+      "default_popup": "index.html"
+  }
 }
