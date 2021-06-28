@@ -1,5 +1,5 @@
 # Password Hash
-
+![Screenshot](screenshot-edited.png)
 ## What is this
 
 This is a chrome extension that works like a password manager, but it doesn't stores the passwords.
